@@ -18,6 +18,7 @@ registerDoParallel(cores=detectCores(all.tests=TRUE))
 # Tell me about parallel backend
 getDoParWorkers()
 getDoParName()
+getDoParRegistered()
 getDoParVersion()
 
 # Bootstrapping on the iris data set
