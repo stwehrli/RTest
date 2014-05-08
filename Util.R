@@ -1,4 +1,8 @@
+#######################################################################################################
+# Some simple utils copied from the net
+# wehrlist@ethz.ch
 
+#######################################################################################################
 source_https <- function(url, ...) {
   ## Function for sourcing individual R scripts from GitHub
   ## Author: Tony Breyal
@@ -14,3 +18,16 @@ source_https <- function(url, ...) {
          envir = .GlobalEnv)
   })
 }
+
+#######################################################################################################
+clc <- function() {
+  # Function for clearing the console
+  # Typically CTRL-L does the job, sometimes not
+  # http://stackoverflow.com/questions/14260340/function-to-clear-the-console-in-r
+  cat(rep("\n",50))
+}
+
+#######################################################################################################
+# Add some more stuff
+
+
