@@ -66,4 +66,6 @@ system.time (L <- lda(fac ~., data=A, prior=rep(1,g)/g, subset=train))
 # Compiling R with MKL Support
 # http://www.r-bloggers.com/compiling-r-3-0-1-with-mkl-support/
 
+#######################################################################################################
+
 
